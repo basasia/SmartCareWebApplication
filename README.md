@@ -37,3 +37,23 @@ The design of this application followed the pattern of MVC such that it has inte
 - JAVA
 - JAVA EE
 
+
+Login page:
+
+![image](https://user-images.githubusercontent.com/60352487/120791964-0d432000-c55f-11eb-9caf-3f3f703f11ba.png)
+
+Admin page:
+
+![image](https://user-images.githubusercontent.com/60352487/120792110-3cf22800-c55f-11eb-8d8f-53d08880eb0b.png)
+
+Doctor page:
+
+![image](https://user-images.githubusercontent.com/60352487/120792205-55fad900-c55f-11eb-9d68-208a7136347f.png)
+
+Nurse page:
+
+![image](https://user-images.githubusercontent.com/60352487/120792698-1e406100-c560-11eb-9271-fe4f2cb59b5a.png)
+
+
+
+
