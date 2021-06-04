@@ -1,5 +1,5 @@
 # SmartCareWebApplication
-Virtual Web Application for a hospital
+Virtual Web Application for a hospital develop by using JAVA, html and css.
 
 ###Web Application for a hospital
 
@@ -9,7 +9,7 @@ Build a web application for a hospital that allows the patients, doctors, nurses
 
 ##Summary
 
-This application was built using Netbeans with JAVA EE. Netbeans comes with JAVA programming language which allows me to implement the back-end of the application based on the principle of object oriented programming such as treating each patient, admin and doctor as objects and each functionality as a method within the class. For front-end of the application, this was implementd by creating jsp files with the use of html, javascripts and css for styling and implementing the web interface. The database for this project was created by using the service of the Netbeans.
+This application was built using Netbeans with JAVA EE. Netbeans comes with JAVA programming language which allows me to implement the back-end of the application based on the principle of object oriented programming such as treating each patient, admin and doctor as objects and each functionality as a method within the class. For front-end of the application, this was implementd by creating jsp files with the use of html and css for styling and implementing the web interface. The database for this project was created by using the service of the Netbeans.
 
 ##Functionality
 
@@ -21,16 +21,19 @@ The design of this application followed the pattern of MVC such that it has inte
 
 ##Run Locally
 
-- Clone the folder AppointmentSystem
+- Clone the folder SmartCareWebApplication
 - Make sure to install Netbeans
-- Run the jar file \AppointmentSystem\PatientMakeAppointmentPrototype.jar
-- You can login with username and password in the document \AppointmentSystem\How to Run the Prototype.docx   
-- Optionally, the application can be run by using Netbeans then run the file \AppointmentSystem\src\hospmansys\controllers_and_fxml\AppointmentSystem.JAVA
-- Further details on how to run the application can be found in the How to Run the Prototype document 
+- Create a database name: "SMARTCARE", user: "SmartCare", password: "HSVu2G".
+- Start the database sever
+- Connect to the database that just created
+- Execute all the commands in the \SmartCareWebApplication\SQL to create all the tables needed.
+- Intialize the admin account within the database as this account cannot be registered through the web application.    
+- Run the file \SmartCare\src\java\smartcare\controllers\Login.JAVA  to start the web application.
+- You can login with the existing account or register a new one as a patient. Once registered, the password will be as day-month-year. For example, the date of birth is 02-06-2021, the password will be 020621. To register new accounts for docters and nurses, this need to be created via the admin account.   
 
 ##Tech Stack
 
 - Netbeans
 - JAVA
-- SceneBuilder
+- JAVA EE
 
