@@ -28,7 +28,7 @@ The design of this application followed the pattern of MVC such that it has inte
 - Connect to the database that just created
 - Execute all the commands in the \SmartCareWebApplication\SQL to create all the tables needed.
 - Intialize the admin account within the database as this account cannot be registered through the web application.    
-- Run the file \SmartCare\src\java\smartcare\controllers\Login.JAVA  to start the web application.
+- Run the file \SmartCareWebApplication\src\java\smartcare\controllers\Login.JAVA  to start the web application.
 - You can login with the existing account or register a new one as a patient. Once registered, the password will be as day-month-year. For example, the date of birth is 02-06-2021, the password will be 020621. To register new accounts for docters and nurses, this need to be created via the admin account.   
 
 ##Tech Stack
